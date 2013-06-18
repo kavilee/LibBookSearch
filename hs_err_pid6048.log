@@ -1,0 +1,98 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (434C41535326494C453041525345520E4350500AB8), pid=6048, tid=2312
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0-beta2-b86 mixed mode)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01b78000):  JavaThread "Unknown thread" [_thread_in_vm, id=2312]
+
+Stack: [0x00150000,0x001a0000)
+[error occurred during error reporting, step 110, id 0xc00000fd]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [javaw.exe+0xc06c]
+C  [javaw.exe+0x7d25]
+C  [kernel32.dll+0x4ed6c]
+C  [ntdll.dll+0x6377b]
+C  [ntdll.dll+0x6374e]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+VM state:not at safepoint (not fully initilizated)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 0K [0x03b80000, 0x03c80000, 0x04060000)
+  eden space 896K,   0% used [0x03b80000, 0x03b80000, 0x03c60000)
+  from space 64K,   0% used [0x03c60000, 0x03c60000, 0x03c70000)
+  to   space 64K,   0% used [0x03c70000, 0x03c70000, 0x03c80000)
+ tenured generation   total 4096K, used 0K [0x04060000, 0x04460000, 0x07b80000)
+   the space 4096K,   0% used [0x04060000, 0x04060000, 0x04060200, 0x04460000)
+ compacting perm gen  total 12288K, used 100K [0x07b80000, 0x08780000, 0x0bb80000)
+   the space 12288K,   0% used [0x07b80000, 0x07b993e8, 0x07b99400, 0x08780000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	E:\JDK\bin\javaw.exe
+0x77920000 - 0x77a5c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x77070000 - 0x77144000 	C:\Windows\system32\kernel32.dll
+0x75d60000 - 0x75daa000 	C:\Windows\system32\KERNELBASE.dll
+0x76e40000 - 0x76ee0000 	C:\Windows\system32\ADVAPI32.dll
+0x76ce0000 - 0x76d8c000 	C:\Windows\system32\msvcrt.dll
+0x75fd0000 - 0x75fe9000 	C:\Windows\SYSTEM32\sechost.dll
+0x77aa0000 - 0x77b41000 	C:\Windows\system32\RPCRT4.dll
+0x76f90000 - 0x77059000 	C:\Windows\system32\USER32.dll
+0x77150000 - 0x7719e000 	C:\Windows\system32\GDI32.dll
+0x77580000 - 0x7758a000 	C:\Windows\system32\LPK.dll
+0x76c40000 - 0x76cdd000 	C:\Windows\system32\USP10.dll
+0x76e20000 - 0x76e3f000 	C:\Windows\system32\IMM32.DLL
+0x77850000 - 0x7791c000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	E:\JDK\jre\bin\msvcr71.dll
+0x6d7f0000 - 0x6da2f000 	E:\JDK\jre\bin\client\jvm.dll
+0x73d50000 - 0x73d82000 	C:\Windows\system32\WINMM.dll
+0x759b0000 - 0x759fc000 	C:\Windows\system32\apphelp.dll
+0x6d310000 - 0x6d318000 	E:\JDK\jre\bin\hpi.dll
+0x77a90000 - 0x77a95000 	C:\Windows\system32\PSAPI.DLL
+0x6d3f0000 - 0x6d419000 	E:\JDK\jre\bin\jdwp.dll
+0x6d670000 - 0x6d676000 	E:\JDK\jre\bin\npt.dll
+0x6d7a0000 - 0x6d7ac000 	E:\JDK\jre\bin\verify.dll
+0x6d3a0000 - 0x6d3bf000 	E:\JDK\jre\bin\java.dll
+0x6d7e0000 - 0x6d7ef000 	E:\JDK\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:49832 -Dfile.encoding=UTF-8 -Xbootclasspath:D:\android-sdk-windows\platforms\android-8\android.jar
+java_command: com.daxia.remote.GDUTService
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\JDK
+CLASSPATH=E:\JDK\lib\dt.jar;E:\JDK\lib\tools.jar;TOMCAT_HOME\lib;
+PATH=E:\JDK\jre\bin;E:/JDK/bin/../jre/bin/client;E:/JDK/bin/../jre/bin;E:/JDK/bin/../jre/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\Common Files\NetSarang;D:\Tomcat 6.0\bin;D:\android-sdk-windows\tools;E:\JDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Windows7Master;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files\TortoiseSVN\bin;;D:\Program Files\Rational Rose\common;C:\Program Files\Common Files\Ulead Systems\MPEG;C:\Program Files\Windows Live\Shared;C:\Windows\System32;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;d:\Program Files\visual c++\bin;E:\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 2 family 6, cmov, cx8, fxsr, mmx, sse, sse2
+
+Memory: 4k page, physical 2086392k(161652k free), swap 4172784k(1819096k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0-beta2-b86) for windows-x86, built on Jun  2 2006 00:36:31 by "java_re" with unknown MS VC++:1310
+

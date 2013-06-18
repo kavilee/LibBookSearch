@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/lisb/!svn/ver/4/1/LibBookSearch/res/layout
+END
+more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/more.xml
+END
+book_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_list_item.xml
+END
+book_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_detail_header.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/lisb/!svn/ver/4/1/LibBookSearch/res/layout/main.xml
+END
+book_detail_tail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_detail_tail.xml
+END
+main_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/main_search.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/lisb/!svn/ver/4/1/LibBookSearch/res/layout/about.xml
+END
+searchbook_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/searchbook_list.xml
+END
+book_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_detail.xml
+END
+home_tab_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/home_tab_item.xml
+END
+book_list_tail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_list_tail.xml
+END
+home_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/home_tab.xml
+END
+book_store_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/book_store_list_item.xml
+END
+fav_book_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/lisb/!svn/ver/3/1/LibBookSearch/res/layout/fav_book_list_item.xml
+END

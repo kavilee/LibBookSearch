@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_top_bg" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/back_bg" />
+
+        <Button
+            android:id="@+id/btnSchool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/school_bg"
+            android:text="广工图书馆"
+            android:textColor="#663300"
+            android:textSize="4pt"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/about"
+                android:layout_marginBottom="5dip"
+                android:text="关于情景:" />
+
+            <TextView
+                style="@style/about"
+                android:text="@string/about_born" />
+
+            <TextView
+                style="@style/about"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:text="关于软件:" />
+
+            <TextView
+                style="@style/about"
+                android:text="@string/about_soft" />
+
+            <TextView
+                style="@style/about"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:text="版本:v2.0" />
+
+            <TextView
+                style="@style/about"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:text="联系我:" />
+
+            <TextView
+                style="@style/about"
+                android:text="如果你有好的建议或者想法，或者你想参与到这个项目中来，欢迎你的来信." />
+
+            <TextView
+                style="@style/about"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:text="联系方式:" />
+
+            <TextView
+                style="@style/about"
+                android:text="email: yeguozhong@yeah.net" />
+
+            <TextView
+                style="@style/about"
+                android:text="weibo: http://weibo.com/yeguozhong" />
+
+            <TextView
+                style="@style/about"
+                android:text="site: http://www.yeguozhong.com" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

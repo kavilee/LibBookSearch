@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/lisb/!svn/ver/8/1/LibBookSearch
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/lisb/!svn/ver/3/1/LibBookSearch/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/lisb/!svn/ver/3/1/LibBookSearch/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/lisb/!svn/ver/3/1/LibBookSearch/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/lisb/!svn/ver/3/1/LibBookSearch/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/lisb/!svn/ver/3/1/LibBookSearch/AndroidManifest.xml
+END

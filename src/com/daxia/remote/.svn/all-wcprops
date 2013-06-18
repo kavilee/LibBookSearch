@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/lisb/!svn/ver/8/1/LibBookSearch/src/com/daxia/remote
+END
+AbstractHttpService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/lisb/!svn/ver/4/1/LibBookSearch/src/com/daxia/remote/AbstractHttpService.java
+END
+GDUTService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lisb/!svn/ver/4/1/LibBookSearch/src/com/daxia/remote/GDUTService.java
+END
+IHttpService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/lisb/!svn/ver/3/1/LibBookSearch/src/com/daxia/remote/IHttpService.java
+END
+SCNUService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lisb/!svn/ver/4/1/LibBookSearch/src/com/daxia/remote/SCNUService.java
+END
+GDUFSservice.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/lisb/!svn/ver/8/1/LibBookSearch/src/com/daxia/remote/GDUFSservice.java
+END
+GZHUService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/lisb/!svn/ver/4/1/LibBookSearch/src/com/daxia/remote/GZHUService.java
+END

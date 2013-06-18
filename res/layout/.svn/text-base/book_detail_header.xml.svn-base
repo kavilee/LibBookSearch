@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/bookDetailLeft"
+                android:text="书本编号" />
+
+            <TextView
+                android:id="@+id/tvbookId"
+                style="@style/bookDetailRight"
+                android:text="123654" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/bookDetailLeft"
+                android:text="书名:" />
+
+            <TextView
+                android:id="@+id/tvbookName"
+                style="@style/bookDetailRight"
+                android:text="书名书名" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sec"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/bookDetailLeft"
+                android:text="作者:" />
+
+            <TextView
+                android:id="@+id/tvauthor"
+                style="@style/bookDetailRight"
+                android:text="大侠" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/bookDetailLeft"
+                android:text="出版社:" />
+
+            <TextView
+                android:id="@+id/tvpubHouse"
+                style="@style/bookDetailRight"
+                android:text="清华大学出版社" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/four"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/bookDetailLeft"
+                android:text="出版年份:" />
+
+            <TextView
+                android:id="@+id/tvpubYear"
+                style="@style/bookDetailRight"
+                android:text="2012" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivAddFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/five"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/btn_fav_bg" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="3px"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/list_item_divide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="藏书情况"
+        android:textColor="#663300"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

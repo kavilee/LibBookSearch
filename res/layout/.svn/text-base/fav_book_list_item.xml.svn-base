@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivthumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:background="@drawable/book_thumbnail_default" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip" >
+
+        <TextView
+            android:id="@+id/tvbookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="零基础学Java [专著]"
+            android:textColor="#663300"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvbookName"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dip"
+                android:text="编者:" />
+
+            <TextView
+                android:id="@+id/tvauthor"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB君" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lpub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lauthor"
+            android:layout_marginTop="1dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dip"
+                android:text="出版社:" />
+
+            <TextView
+                android:id="@+id/tvpubHouse"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大侠出版社" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lpubYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lpub"
+            android:layout_marginTop="1dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="2dip"
+                android:layout_height="wrap_content"
+                android:text="索取号:" />
+
+            <TextView
+                android:id="@+id/tvgetNum"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABC123656" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lpubYear"
+            android:layout_marginTop="1dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dip"
+                android:text="出版年:" />
+
+            <TextView
+                android:id="@+id/tvpubYear"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="2012" />
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="馆藏:" />
+
+            <TextView
+                android:id="@+id/tvstoreNum"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="6" />
+
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可借:" />
+
+            <TextView
+                android:id="@+id/tvcanBorrow"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="6" />
+            
+            <TextView
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所在学校:" />
+
+            <TextView
+                android:id="@+id/tvschool"
+                style="@style/book_list_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="广工" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivAddFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/btn_fav_bg" />
+    </RelativeLayout>
+
+</LinearLayout>
